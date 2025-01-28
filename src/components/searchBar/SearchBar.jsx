@@ -23,7 +23,7 @@ export function SearchBar() {
   return (
     <form dir={lang === "ar" ? "rtl" : "ltr"} onSubmit={formik.handleSubmit}>
       <div
-        className={`max-w-md flex w-[395px] h-[68px] items-center border-2 border-gray-300 dark:border-gray-700 rounded-md ${
+        className={`max-w-md flex w-[335px] md:w-[395px] h-[68px] items-center border-2 border-gray-300 dark:border-gray-700 rounded-md ${
           lang === "ar"
             ? "rounded-tr-xl rounded-br-xl"
             : "rounded-tl-xl rounded-bl-xl"
