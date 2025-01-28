@@ -95,7 +95,8 @@ export default function Home() {
                 {orderN[OrderNumber] === t("cancelled") ? null : (
                   <div>
                     <p className="font-normal text-gray-700 dark:text-gray-400 mb-5">
-                      {t("order_expected_arrival")}
+                      {t("order_expected_arrival")}{" "}
+                      {formatDateShort(order?.PromisedDate)}
                     </p>
                     <hr />
                     <div
