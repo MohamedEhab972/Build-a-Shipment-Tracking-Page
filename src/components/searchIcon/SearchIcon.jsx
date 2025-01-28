@@ -24,7 +24,7 @@ export function SearchIcon() {
       </span>
       {isOpen && (
         <div
-          className={`absolute top-10 ${lang === "ar" ? "-left-[250px]" : "-left-[160px]"} bg-white dark:bg-gray-800 shadow-lg p-3 rounded`}
+          className={`absolute top-10 ${lang === "ar" ? "-left-[190px]" : "-left-[160px]"} bg-white dark:bg-gray-800 shadow-lg p-3 rounded`}
           onMouseDown={handleInteraction}
         >
           <SearchBar closeDropdown={closeDropdown} />
